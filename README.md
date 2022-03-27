@@ -7,19 +7,21 @@ The purpose of this analysis is to produce some information on various stocks su
 
 Most of the stocks we examined had a positive rate of return in 2017 but the opposite is true for 2018. The only two stocks that positive rates of return for both years were ENPH and RUN. DQ had the highest rate of return in 2017 but with a low Daily Volume. 
 
-The original script ran fast at about .61 seconds each for both 2017 and 2018 as shown below
+The original script ran fast at about .61 seconds each for both 2017 and 2018 as shown below:
 
-VBA_Challenge_2017_Before.png
+![2017_RunTime_Before](VBA_Challenge_2017_Before.png)
 
-https://github.com/remenars/stock_analysis/blob/main/VBA_Challenge_2018_Before.png
+![2018_RunTime_Before](VBA_Challenge_2018_Before.png)
 
+The refactored script ran for an even shorter amount of time, .07 seconds, for both 2017 and 2018 as shown below:
 
+![2017_RunTime_After](VBA_Challenge_2017.png)
 
-
-
-Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+![2018_RunTime_After](VBA_Challenge_2018.png)
 
 ## Summary
+
+
 Summary: In a summary statement, address the following questions.
 What are the advantages or disadvantages of refactoring code?
 How do these pros and cons apply to refactoring the original VBA script?
